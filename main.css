@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+body {
+    background-color: #5a0e6a;
+}
+
+div {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+button {
+    margin-left: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+#img {
+    width: 344px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    background-image: url(./img./think.jpg);
+    background-size: cover;
+}
+
+#start {
+    margin: calc((100vh - 50vh) / 2) auto;
+}
+
+#game {
+    background-color: coral;
+    font-size: 50px;
+    color: #5a0e6a;
+    border-radius: 10px;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#read {
+    margin: calc((100vh - 30vh) / 2) auto;
+}
+
+#context {
+    background-color: coral;
+    font-size: 40px;
+    color: #5a0e6a;
+    border-radius: 10px;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#quiz {
+    margin: calc((100vh - 80vh) / 2) auto;
+}
+
+#question {
+    background-color: coral;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#next {
+    margin-top: 10px;
+}
+
+#Q {
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.choice {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#end {
+    margin: calc((100vh - 30vh) / 2) auto;
+}
