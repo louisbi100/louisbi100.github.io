@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS./main.css">
+    <title>邏輯大考驗</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="start" class="text-center">
+                    <div id="img"></div>
+                    <div id="game">邏輯大挑戰</div>
+                    <button id="rule" type="button" class="btn btn-success btn-lg">規則</button>
+                    <button id="begin" type="button" class="btn btn-success btn-lg">開始</button>
+                </div>
+                <div id='read' class="text-center">
+                    <h1>規則</h1>
+                    <div id='context'>
+                        <p> 請依據題目所述，從所有選項中，選出最符合邏輯的答案。</p>
+                    </div>
+                    <button id="begin" type="button" class="btn btn-success btn-lg">開始</button>
+                </div>
+                <div id="quiz">
+                    <div id="title" class="text-center"></div>
+                    <div id="question">
+                        <div id="Q">邏輯通常關注的是論證結構的有效性，而非是個別語句單獨的真假值，也就是說就算前提和結論皆為真話，其結構也不一定是有效的（有時候結構一樣但只是換掉內容，就會影響一般人的判斷力），請問下列論證的結構何者為有效論證（也就是說在相同前提下不可能有違反結論的結果產生）？</div>
+                        <div id='c1' class="choice">1. 所有的狗都是動物（前提一），所有的吉娃娃也是動物（前提二），所以所有的吉娃娃是狗（結論）。</div>
+                        <div id='c2' class="choice">2. 肯德基會賣速食或麥當勞會賣速食（前提一），肯德基會賣速食（前提二），所以麥當勞不會賣速食（結論）。</div>
+                        <div id='c3' class="choice">3. 小明如果有認真念書就會及格（前提一），小明有認真念書（前提二），所以小明會及格（結論）。</div>
+                    </div>
+                    <div id="next" class="text-center">
+                        <button id="Next" type="button" class="btn btn-success">下一題</button>
+                    </div>
+                </div>
+                <div id="end" class='text-center'>
+                    <h1>答對率</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
